@@ -1,13 +1,17 @@
-html {
-    height:100%
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
 }
 
 body {
-background-image: linear-gradient( #009ffd,#2a2a72);
-margin:0;
-padding:0;
-font-family: Arial, Helvetica, sans-serif;
-height:100%;
+    background-image: linear-gradient( #009ffd,#2a2a72);
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
 }
 #Nav{
     
@@ -146,5 +150,114 @@ img{
     border-radius:50px;
     text-align:center;
     font-weight: bold;
+    
+}
+#Content{
+    
+    width:75%;
+    height:45em;
+    float:left;
+    margin-top:2.5%;
+    margin-left:2.5%;
+}
+h1{
+    text-align:center;
+    color:white;
+}
+#Najczęściej{
+    height:20em;
+    width:45%;
+    margin-left:4vw;
+    float:left;
+}
+#Najpopularniejsze{
+    height:20em;
+    width:45%;
+    float:left; 
+}
+#Top{
+    
+    height:20em;
+    width:45%;
+    float:left; 
+    margin-left:4vw;
+}
+#Popularne{
+    
+    height:20em;
+    width:45%;
+    float:left; 
+   
+}
+#Movie{
+    margin:0;
+    padding:0;
+    width:8vw;
+    height:23vh;
+    float:left;
+    position:absolute;
+    
+
+}
+#Movie2{
+    margin:0;
+    padding:0;
+    width:8vw;
+    height:23vh;
+    margin-left:15%;
+    float:left;
+    position:absolute;
+    
+}
+#Most{
+    width:100%;
+    height:20em;
+    margin-left:17%;
+}
+
+#Popular{
+    width:13vw;
+    height:11vh;
+    display:flex;
+    justify-content: center; 
+    margin:0 auto;
+}
+#Popular2{
+    width:13vw;
+    height:11vh;
+    display:flex;
+    justify-content: center;
+    margin:0 auto;
+    margin-top:2%;
+}
+#Movie3{
+    
+    width:23vw;
+    height:23vh;
+    display:flex;
+    justify-content: center; 
+    margin:0 auto;
+    margin-left:0
+}
+#margin{
+    margin-top:1.5%;
+}
+h2{
+    text-align:center;
+    color:white;
+    font-size:3em;
+}
+#Movie4{
+    
+    width:30vw;
+    height:23vh;
+    display:flex;
+    justify-content: center; 
+    margin:0 auto;
+    
+}
+#Most2{
+    width:100%;
+    height:20em;
     
 }
